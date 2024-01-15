@@ -61,8 +61,6 @@ int main()
 	cin >> c;
 	Voiture2.setType(c);
 
-
-
 	Voiture2.lire_type();
 
 }
