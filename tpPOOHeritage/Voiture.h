@@ -5,7 +5,8 @@ class Voiture : public Vehicule
 private:
 	string type;
 public:
-	string lire_type();
+	void lire_caracteristique2();
 	void setType(string c);
+	string getType();
 };
 

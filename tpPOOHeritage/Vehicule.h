@@ -16,6 +16,7 @@ public:
 	float getKilometrage();
 	void setMarque(string a);
     void setPuissance(int b);
+	void setKilometrage(int d);
 
 
 };

@@ -39,3 +39,8 @@ void Vehicule::setPuissance(int b)
 	puissance = b;
 }
 
+void Vehicule::setKilometrage(int d)
+{
+	kilometrage = d;
+}
+

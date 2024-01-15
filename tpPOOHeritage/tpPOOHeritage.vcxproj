@@ -151,11 +151,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bus.cpp" />
     <ClCompile Include="tpPOOHeritage.cpp" />
     <ClCompile Include="Vehicule.cpp" />
     <ClCompile Include="Voiture.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bus.h" />
     <ClInclude Include="Vehicule.h" />
     <ClInclude Include="Voiture.h" />
   </ItemGroup>

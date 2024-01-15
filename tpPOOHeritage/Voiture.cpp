@@ -2,17 +2,20 @@
 #include <iostream>
 using namespace std;
 
-string Voiture::lire_type()
+void Voiture::lire_caracteristique2()
 {
 	cout << "La marque du vehicule est :" << getMarque() << endl;
-	cout << "La puissance du vehicule est :" << getPuissance();
-	cout << "Le type de la voiture est " << lire_type() << endl;
+	cout << "La puissance du vehicule est :" << getPuissance()<< endl;
+	cout << "Le type de la voiture est " << getType() << endl;
 	
-
-	return type;
 }
 
 void Voiture::setType(string c)
 {
 	type = c;
+}
+
+string Voiture::getType()
+{
+	return type;
 }
