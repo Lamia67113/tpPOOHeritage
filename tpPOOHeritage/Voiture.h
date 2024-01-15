@@ -1,6 +1,6 @@
 #pragma once
 #include "Vehicule.h"
-class Voiture : private Vehicule
+class Voiture : public Vehicule
 {
 private:
 	string type;

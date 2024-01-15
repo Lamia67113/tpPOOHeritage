@@ -21,9 +21,24 @@ int main()
 	cin >> b;
 	Vehicule1.setPuissance(b);
 
-	Vehicule1.lire_caracteristique();
+	Vehicule1.lire_caracteristique(); 
 
+	cout << endl;
 
+	cout << "Veuillez indiquez la marque du vehicule :" << endl;
+	cin >> a;
+	Voiture1.setMarque(a);
+
+	cout << "Indiquez la puissance du vehicule" << endl;
+	cin >> b;
+	Voiture1.setPuissance(b);
+	
+	
+	cout << "Quel est le type de la voiture ?" << endl;
+	cin >> c;
+	Voiture1.setType(c);
+
+	
 
 	Voiture1.lire_type();
 
