@@ -33,6 +33,7 @@ int main()
 	cin >> b;
 	Voiture1.setPuissance(b);
 	
+
 	
 	cout << "Quel est le type de la voiture ?" << endl;
 	cin >> c;
