@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
 	Vehicule Vehicule1;
-	Voiture Voiture1;
+	Voiture Voiture1,Voiture2;
 	string a,c;
 	int b;
 
@@ -42,6 +42,28 @@ int main()
 	
 
 	Voiture1.lire_type();
+
+
+
+	cout << endl;
+
+	cout << "Veuillez indiquez la marque du vehicule :" << endl;
+	cin >> a;
+	Voiture2.setMarque(a);
+
+	cout << "Indiquez la puissance du vehicule" << endl;
+	cin >> b;
+	Voiture2.setPuissance(b);
+
+
+
+	cout << "Quel est le type de la voiture ?" << endl;
+	cin >> c;
+	Voiture2.setType(c);
+
+
+
+	Voiture2.lire_type();
 
 }
 
